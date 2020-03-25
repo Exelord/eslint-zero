@@ -1,6 +1,6 @@
 {
   "name": "@eslint-zero/javascript",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A complete ESLint plugin for javascript projects",
   "author": "Maciej Kwaśniak <kmaciek17@gmail.com>",
   "homepage": "",
