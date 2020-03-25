@@ -1,0 +1,43 @@
+{
+  "name": "@eslint-zero/javascript",
+  "version": "0.0.0",
+  "description": "A complete ESLint plugin for javascript projects",
+  "author": "Maciej Kwaśniak <kmaciek17@gmail.com>",
+  "homepage": "",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "eslint-zero",
+    "javascript"
+  ],
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint-plugin-decorator-position": "~1.1.0",
+    "eslint-plugin-json": "~2.1.1",
+    "eslint-plugin-node": "~11.0.0"
+  },
+  "devDependencies": {
+    "eslint": "~6.8.0",
+    "glob": "^7.1.6",
+    "jest": "^25.2.0"
+  },
+  "peerDependencies": {
+    "eslint": "^6.8.0"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
